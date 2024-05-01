@@ -164,9 +164,8 @@ CELERY_TASK_SERIALIZER = 'json'
 CELERY_TIMEZONE = env('TIME_ZONE')
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Your Project API',
-    'DESCRIPTION': 'Your project description',
+    'TITLE': 'Atqan API',
+    'DESCRIPTION': 'Atqan Api',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
-    # OTHER SETTINGS
 }
