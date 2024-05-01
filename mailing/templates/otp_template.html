@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Email</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="max-w-2xl mx-auto bg-white rounded shadow p-6 mt-10">
+        <div class="bg-blue-500 text-white rounded-t px-4 py-2">
+            <h2 class="text-xl font-bold">One-Time Password (OTP) Email</h2>
+        </div>
+        <div class="p-6">
+            <p class="text-lg">Hello {{ email }},</p>
+            <p class="text-lg">Your OTP code is: <strong>{{ otp }}</strong></p>
+        </div>
+        <div class="text-center py-4 text-gray-500">
+            <p>Best regards,</p>
+            <p>Your Company Name</p>
+        </div>
+    </div>
+</body>
+</html>
